@@ -1,0 +1,15 @@
+name: 'Astronuts Bot'
+description: 'A custom GitHub Action for Astronuts'
+author: 'Arun'
+runs:
+  using: 'node20'
+  main: 'src/index.js'
+
+inputs:
+  github_token:
+    description: 'GitHub token to authenticate API requests'
+    required: true
+
+branding:
+  icon: activity
+  color: 'blue'
